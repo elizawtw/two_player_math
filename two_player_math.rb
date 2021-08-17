@@ -1,25 +1,19 @@
 =begin
-task 1: extract nouns for classes
-  class Game
-     
-  end
+class Game
+  tracks player's turn
+  lose score
+  read score
+  announce winner
   
-  class Players
-  end
-  
-  class Questions
-  end  
 
-task 2: role for each class
-Game:
-initialize with players
-track lives of players 
-announce winner
+class Player
+  player has a name  
+  player has 3 scores
 
-Players:
-initialize with name
-start life = 3
+class Question
+  question has 2 random values (1-20)
+  question can check correct answer  
 
-Questions:
-initialize with answer
+main
+  start game
 =end
